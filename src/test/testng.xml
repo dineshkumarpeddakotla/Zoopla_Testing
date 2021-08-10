@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" name="TestZoopla.java">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="com.zoopla.TestZoopla">
+                <methods>
+                    <include name="loginInto_Application_And_Search_ForA_Property"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
